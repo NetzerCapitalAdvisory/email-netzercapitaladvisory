@@ -6,7 +6,7 @@ keep_vars = true
 
 [vars]
 DOMAINS = ["netzercapitaladvisory.com"]
-JWT_SECRET = "k9P4mX7vQ2wL8nR5tZ1bY6cF3jH0gD8s""
+JWT_SECRET = "k9P4mX7vQ2wL8nR5tZ1bY6cF3jH0gD8s"
 ADMIN_PASSWORDS = ["toqnyn-sigjYj-8dypfa"]
 
 [[d1_databases]]
