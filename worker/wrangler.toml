@@ -1,0 +1,15 @@
+name = "cloudflare_temp_email"
+main = "src/worker.ts"
+compatibility_date = "2025-04-01"
+compatibility_flags = [ "nodejs_compat" ]
+keep_vars = true
+
+[vars]
+DOMAINS = ["netzercapitaladvisory.com"]
+JWT_SECRET = "k9P4mX7vQ2wL8nR5tZ1bY6cF3jH0gD8s""
+ADMIN_PASSWORDS = ["toqnyn-sigjYj-8dypfa"]
+
+[[d1_databases]]
+binding = "DB"
+database_name = "email-db"
+database_id = "DEINE_DATABASE_ID_HIER_EINFUEGEN"
